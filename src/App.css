@@ -1,0 +1,27 @@
+#root{
+  display: grid;
+  grid-template-areas: "header header"
+                       "aside section";
+  grid-template-columns: 240px 1fr;
+  grid-template-rows: auto;
+  /* justify-items: stretch; */
+  grid-gap: 0;
+  overflow-y: hidden;
+  /* background-color: #dbdbdb; */
+}
+
+
+body,
+html,
+p{
+    margin: 0;
+    padding: 0;
+    font-size: 8px;
+    font-family: 'Roboto','Noto',sans-serif;
+}
+
+
+svg{
+    fill: #606060;
+}
+
